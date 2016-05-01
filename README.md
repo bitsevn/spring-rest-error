@@ -2,7 +2,7 @@
 Better exception handling for Spring REST/MVC application. Eliminates boilerplate code for catching/logging exceptions, uses AOP approach to address the problem.
 
 ## Exception mappings ``[errors.json]``
-``
+``json
 [
 	{
 		"exceptions": "java.lang.Throwable",
@@ -33,7 +33,7 @@ Better exception handling for Spring REST/MVC application. Eliminates boilerplat
 
 ## REST json error send to clients
 
-``
+``json
 {
   "status": "500",
   "code": "500",
