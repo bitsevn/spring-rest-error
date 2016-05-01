@@ -1,0 +1,26 @@
+[
+	{
+		"exceptions": "java.lang.Throwable",
+		"error": {
+			"status": "500",
+			"code": "500",
+			"message": "Internal server error.",
+			"developerMessage": "An exception is throws and not found in [errors.json] mapping templates. Please look at stack trace/logs for more details.",
+			"moreInfoUrl": "http://localhost:8080/errors/404",
+			"stackTrace": null,
+			"throwable": null
+		}
+	},
+	{
+		"exceptions": "com.cubestacklabs.exception.NotFoundException,org.hibernate.ObjectNotFoundException",
+		"exceptions": {
+			"status": "404",
+			"code": "404",
+			"message": "Item not found.",
+			"developerMessage": "Request resource not found in the system.",
+			"moreInfoUrl": "http://localhost:8080/errors/404",
+			"stackTrace": null,
+			"throwable": null
+		}
+	}	
+]
